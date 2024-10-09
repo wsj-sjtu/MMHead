@@ -91,7 +91,9 @@ section {
 }
 .col-2 {
      width: 50%;
-     float: left;
+     font-size: 1.2em;
+     font-weight: 300;
+     text-align: center;
 }
 .col-1 {
      width: 100%;

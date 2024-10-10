@@ -90,9 +90,8 @@ section {
 /*      margin: 0 auto; */
 }
 .col-2 {
-     width: 40%;
-/*      float: left; */
-     text-align: center;
+     width: 45%;
+     float: left;
 }
 .col-1 {
      width: 100%;

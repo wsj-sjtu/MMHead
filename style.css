@@ -64,7 +64,7 @@ section {
 }
 .col-8 {
      width: 12.5%;
-     margin: 0px 0px 0px 0px;
+     margin: 0px 0px 10px 0px;
      float: left;
      font-size: 0.88em;
 }
@@ -90,7 +90,7 @@ section {
 /*      margin: 0 auto; */
 }
 .col-2 {
-     width: 45%;
+     width: 50%;
      float: left;
 }
 .col-1 {

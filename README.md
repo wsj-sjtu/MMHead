@@ -15,7 +15,7 @@ Please note that by requesting the dataset, you confirm that you have read, unde
 
 
 ### Overview
-- The MMHead dataset is a multi-modal 3D facial animation dataset with hierarchical text annotations: (1) abstract action descriptions, (2) abstract emotions descriptions, (3) fine-grained expressions descriptions, (4) fine-grained head pose descriptions, and (5) emotion scenarios. The 3D facial motion is represented by 56-dimensional FLAME parameters (50 expression + 3 neck pose + 3 jaw pose).
+- The MMHead dataset is a multi-modal 3D facial animation dataset with hierarchical text annotations: (1) abstract action descriptions, (2) abstract emotions descriptions, (3) fine-grained expressions descriptions, (4) fine-grained head pose descriptions, and (5) emotion scenarios. The 3D facial motion is represented by 56-dimensional [FLAME](https://flame.is.tue.mpg.de/) parameters (50 expression + 3 neck pose + 3 jaw pose).
 - MMHead dataset contains a total of 35903 facial motions, which is divided into two subsets for two tasks: (1) MMHead Subset I (28466 facial motions) for text-induced talking head animation, and (2) MMHead Subset II (7937 facial motions) for text-to-3D facial motion generation.
 
 ### Data Structure

@@ -53,7 +53,18 @@ MMHead
 
 
 ## Evaluation metrics
-First, download 
+First, prepare data and pretrained models, including (1) download the [FLAME model](https://flame.is.tue.mpg.de/download.php) (FLAME 2020), and put the generic_model.pkl file to `/metrics/FLAME/data/`; (2) download pretrained [distilbert](https://huggingface.co/distilbert/distilbert-base-uncased), [wav2vec2](https://huggingface.co/facebook/wav2vec2-base-960h), [tmr_text](https://huggingface.co/Human-X/MMHead_eval/tree/main), [tmr_audio](https://huggingface.co/Human-X/MMHead_eval/tree/main) models and organize them as follows:
+```
+metrics
+└── metric
+    └── checkpoints
+        ├── distilbert-base-uncased
+        ├── wav2vec2-base-960h
+        ├── tmr_text
+        └── tmr_audio
+```
+
+Then, refer to `/metrics/calculate_metrics.py`. Note that (1) you need to implement your own data loader to load data in batches; and (2) the metrics in our paper are calculated with a batch size of 32.
 
 
 ## Citation
@@ -69,7 +80,7 @@ If you use this dataset, please consider citing
 ```
 
 ## Acknowledgement
-Our code is developed with reference to [TMR](https://github.com/Mathux/TMR) and [text-to-motion](https://github.com/EricGuo5513/text-to-motion). We thank all the authors for their great work and repos.
+Our code is developed with reference to [DECA](https://github.com/yfeng95/DECA), [TMR](https://github.com/Mathux/TMR), and [text-to-motion](https://github.com/EricGuo5513/text-to-motion). We thank all the authors for their great work and repos.
 
 ## Contact
 - Sijing Wu [(wusijing@sjtu.edu.cn)](wusijing@sjtu.edu.cn)

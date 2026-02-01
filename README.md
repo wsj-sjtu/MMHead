@@ -4,7 +4,7 @@
 <img src="assets/teaser.png" /> 
 
 ## TODO
-- [ ] Release the codes for calculating the metrics.
+- [x] Release the codes for calculating the metrics.
 - [x] Release the MMHead dataset.
 
 ## MMHead Dataset
@@ -51,6 +51,11 @@ MMHead
 • t2m_subset.json contains the data list of MMHead Subset II, alone with its training, validation, and testing set splits.
 ```
 
+
+## Evaluation metrics
+First, download 
+
+
 ## Citation
 If you use this dataset, please consider citing
 ```
@@ -62,6 +67,9 @@ If you use this dataset, please consider citing
   year={2024}
 }
 ```
+
+## Acknowledgement
+Our code is developed with reference to [TMR](https://github.com/Mathux/TMR) and [text-to-motion](https://github.com/EricGuo5513/text-to-motion). We thank all the authors for their great work and repos.
 
 ## Contact
 - Sijing Wu [(wusijing@sjtu.edu.cn)](wusijing@sjtu.edu.cn)
